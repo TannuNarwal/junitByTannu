@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
      * @param c the character to check
      * @return true if the character is a special character, false otherwise
      */
-    boolean isSpecialCharacter(char c) {
+    public boolean isSpecialCharacter(char c) {
         switch (c) {
             case '#':
             case '$':
