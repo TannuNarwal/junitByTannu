@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+
     <!-- TextView for Password Prompt -->
     <TextView
         android:id="@+id/textview"
@@ -12,6 +13,7 @@
         android:text="Type your Password:"
         android:layout_centerHorizontal="true"
         android:textSize="18sp" />
+
 
     <!-- EditText for Password Input -->
     <EditText
@@ -24,6 +26,7 @@
         android:inputType="textPassword"
         android:layout_centerHorizontal="true" />
 
+
     <!-- Login Button -->
     <Button
         android:id="@+id/btn"
@@ -33,4 +36,6 @@
         android:layout_below="@id/editview"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp" />
+
+
 </RelativeLayout>
